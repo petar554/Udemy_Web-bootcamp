@@ -1,0 +1,55 @@
+/* When we set property on parent it can also affect a child element */
+/* CSS SPECIFICITY is idea in the sense that we can have multiple styles targeting one element.  */
+/* CSS decide which one wins. And in this case whatever style is closest to this element. So whichever one is more specifi, so what that means, BODY is more genearl and UL is more specific.  */
+/* This are all simple cases where it's a pretty clear which one wins. */
+
+body {
+    color: red;
+}
+
+ul {
+    color: blue;
+}
+
+li {
+    color: orange;
+}
+
+/* 
+We can see if we look inspect element (for first li element, in second ul list) body, ul, li, and class are not applied. */
+.highlight {
+    color: blue;
+}
+
+#special {
+    color: green;
+}
+
+
+/* SCALE OF SPECIFICITY */
+/*Type selectors*/
+
+/* li {}
+
+li a {}
+
+li+a {} */
+
+/* Class, attribute and pseudo-class selectors */
+/* So this is going to be an order of magnitude 10 times bigger or more specific than any of these. */
+/* 
+
+.class {}
+
+input[type="text"] {}
+
+a:hover 
+
+input:checked */
+
+/*ID selector */
+/* Very most specific is ID selector */
+
+/* #hello {
+
+} */
