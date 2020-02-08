@@ -1,0 +1,59 @@
+/*Element*/
+li {}
+
+/*Class*/
+.hello {}
+
+/*Id*/
+#name {}
+
+/*Star selector*/
+/* The STAR symbol will target every single element on the page. Many developers will use this trick to zero out the margins and padding. While this is certainly fine for quick tests, I'd advise you to never use this in production code. It adds too much weight on the browser, and is unnecessary. */
+* {
+    border: 1px solid brown;
+}
+
+/*Descendant selector*/
+/* Selecting every elements inside element which is always on left side */
+
+
+li a {
+    color: yellowgreen;
+}
+
+/*Adjacent selector*/
+/* With ADJACENT selector we will select element that comes after another. So not nested inside like in STAR selector. */
+
+/* h1+a {
+    background-color: yellow;
+} */
+
+h4+ul {
+    border: 4px solid red;
+}
+
+/*Attribute selector*/
+/* ATTRIBUTE selector is a way to select elements based of any attribute */
+
+a[href="https://www.google.com/"] {
+    background: blue;
+}
+
+/*Nth of type selector*/
+/* The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.
+n can be a number, a keyword, or a formula. */
+ul:nth-of-type(3) {
+    background: purple;
+}
+
+li:nth-of-type(2) {
+    background: #FF88FF;
+}
+
+li:nth-of-type(4n) {
+    background: #11f380;
+}
+
+li:nth-of-type(odd) {
+    background: #506060;
+}
