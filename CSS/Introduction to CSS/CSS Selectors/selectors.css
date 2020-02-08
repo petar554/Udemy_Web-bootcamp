@@ -25,7 +25,7 @@ li a {
 /* With ADJACENT selector we will select element that comes after another. So not nested inside like in STAR selector. */
 
 h1+a {
-    background-color: yellow;
+    background-color: yellowgreen;
 }
 
 
