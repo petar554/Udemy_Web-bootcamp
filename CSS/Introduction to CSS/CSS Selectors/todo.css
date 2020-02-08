@@ -1,0 +1,26 @@
+/* selector {
+    property: value;
+} */
+
+
+body {
+    background: orange;
+}
+
+li {
+    border: 2px solid red;
+}
+
+/* 
+ID and CLASS selevtors
+The difference between an ID and a CLASS is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
+You can also apply a selector to a specific HTML element by simply stating the HTML selector first, so p.jam { /* whatever *} will only be applied to paragraph elements that have the class “jam”. */
+
+#special {
+    background: yellow;
+}
+
+.completed {
+    text-decoration: line-through;
+}
