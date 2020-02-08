@@ -24,12 +24,21 @@ li a {
 /*Adjacent selector*/
 /* With ADJACENT selector we will select element that comes after another. So not nested inside like in STAR selector. */
 
-/* h1+a {
+h1+a {
     background-color: yellow;
-} */
+}
+
+
 
 h4+ul {
     border: 4px solid red;
+}
+
+/*Sibling selector*/
+/* This sibling combinator is similar to X + Y, however, it's less strict. While an adjacent selector (ul + p) will only select the first element that is immediately preceded by the former selector, this one is more generalized. It will select, referring to our example above, any p elements, as long as they follow a ul. */
+
+h4~ul {
+    border: 4px solid rgb(5, 211, 32);
 }
 
 /*Attribute selector*/
