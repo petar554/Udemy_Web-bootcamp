@@ -1,0 +1,35 @@
+p {
+    /*CONTENT - WIDTH AND HEIGT*/
+    /* It's a 50% inherited from parent element (body in this case). In our case body is entire page */
+    width: 50%;
+
+    /*BORDER*/
+
+    /* Our border doesn't stop after last letter, that's because when we make a paragraph by the default it goes all the way accros the screen. */
+    border: 2px solid blue;
+
+    /*PADDING*/
+
+    /* Padding is this space between the element and the border */
+    /* Now we have padding 10px on all sides. padding: 10px; */
+
+    /* padding: 10px; */
+    padding-left: 40px;
+
+    /*MARGIN*/
+
+    /* It's space on the outside of the border */
+    margin: 100px;
+
+    /* So the first one is for the top, then right, bottom and left on the end */
+
+    margin: 20px 40px 500px 100px;
+
+    /* Setting margin for top and bottom, and auto (it will center the element) to left and right */
+    margin: 0 auto 0 auto;
+    /* Another way - 0 for top and bottom, and auto for left and right */
+    margin: 0 auto;
+
+
+
+}
