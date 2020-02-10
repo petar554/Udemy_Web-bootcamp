@@ -40,3 +40,47 @@ p {
 span {
     font-size: 2.0em;
 }
+
+/*Font-weight*/
+p {
+    /* font-weight: bold; */
+    font-weight: normal;
+}
+
+/* Certain fonts will let you use a numeric value as well and that ranges from 100 to 800, and is not any number between 100 and 800, it's every hundred. So one hundred will be the lightest, 5 hundred would be pretty heavy and 8 hundred would be the heaviest. */
+
+p {
+    font-weight: 800;
+}
+
+/*Line-height*/
+/* It control height of a given line */
+
+p {
+    line-height: 3;
+}
+
+/*Text-align*/
+/* Controls how the text of a given element is actually aligned */
+
+h1 {
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+/*Text-decoration*/
+/* Is used to give text underline,line-through, and also smth. called over line effect */
+p {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: line-through;
+}
+
+p:nth-of-type(2) {
+    text-decoration: overline;
+}
