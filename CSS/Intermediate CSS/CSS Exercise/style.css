@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+
+}
+
+img {
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+}
+
+h1 {
+    margin-left: 36.9%;
+    font-family: 'Roboto';
+    letter-spacing: 0.2rem;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.5); */
+    /* border-top: 2px solid rgba(0, 0, 0, 0.5); */
+    /* width: 26%; */
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+}
+
+hr {
+    width: 30%;
+    background-image: linear-gradient(to right, rgba(238, 144, 3, 0), rgba(121, 58, 0, 0.842), rgba(236, 137, 8, 0));
+    border: 0;
+    height: 1px;
+}
