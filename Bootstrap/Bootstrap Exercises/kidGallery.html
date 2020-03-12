@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--load all styles from fontawesome.com -->
+    <script src="https://kit.fontawesome.com/f200ba01dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>KiD Gallery</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- Adding container class to make space (margin) -->
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Adding "hamburger", it is a quite a bit of code, goes inside of navbar-header, before brand name -->
+                <!-- If we change the content of data-target element, we also must change id element in line 29, giving the same content -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><i class="fab fa-think-peaks"></i> KiD</a>
+            </div>
+            <!-- Adding collapse class to hide the content when it does mobile size  -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sing up</a></li>
+                    <li><a href="#">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fab fa-think-peaks"></i> KiD Galanterija Burić</h1>
+            <p>Prodaja i ugradnja proizvoda od kamena i drveta</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_1kamin7.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_1kamin2.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_1kamin1.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_wooden_chandelier_7.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_wooden_chandelier_8.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="photos/rsz_wooden_chandelier_13.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery file does need to come before bootstrap JS file because it relies on a query -->
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

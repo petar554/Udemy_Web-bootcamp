@@ -1,0 +1,43 @@
+body {
+    background: url(https://images.unsplash.com/photo-1522107177-01884fcfa2bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: rgb(218, 165, 32);
+}
+
+
+/* What we'll do to fix background image is give the HTML element a height of 100 percent which means take up 100 percent */
+html {
+    height: 100%;
+}
+
+#content {
+    text-align: center;
+    padding-top: 15%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+    text-shadow: 1px 4px 4px black,
+        0px 8px 30px rgb(29, 27, 22);
+}
+
+h3 {
+    font-weight: bold;
+    text-shadow: 1px 1.5px 3px black,
+        0px 8px 30px rgb(29, 27, 22);
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(218, 165, 32);
+    text-shadow: 1px 1.5px 3px black,
+        0px 8px 40px rgb(29, 27, 22);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8f;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
