@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Display utility</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" text-center display-4">Display utility</div>
+        <a href="https://getbootstrap.com/docs/4.4/components/navbar/">Form more <strong>Bootstrap4
+                Display properties</strong></a><br>
+
+        <!-- Changing default d-block property to d-inline property -->
+        <h1 class="border border-danger d-inline">HELLO</h1>
+
+        <!-- Hiding element when it is xl -->
+        <h1 class="d-xl-none">HIDE ME ON XL</h1>
+
+        <!-- But what we want to do is say from extra small (xs) up no display (we don't need to add the dash to xs). So we say display none. To bi visible on large screen (lg) we must add example d-lg-block (or whatever value). And because is still visible on extra large screen (xl), to hide that we must add d-xl-none -->
+        <h1 class="d-none d-lg-block d-xl-none">ALWAYS HIDDEN EXCEPT LG</h1>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem
+                assumenda
+                temporibus
+                incidunt quis earum id, qui quam repellendus omnis excepturi voluptatem illum dolor ut? Placeat, ullam!
+                Quae quia repellendus exercitationem deleniti totam saepe doloremque in atque sapiente tenetur quas
+                praesentium, dignissimos laudantium facere qui cum quasi veritatis obcaecati cumque voluptatibus
+                quisquam ea! Sequi blanditiis, eveniet dolor libero eum nam.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
