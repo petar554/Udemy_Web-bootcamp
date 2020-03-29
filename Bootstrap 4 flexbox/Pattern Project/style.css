@@ -1,0 +1,19 @@
+#header {
+  background: url(photos/pjimage.jpg) no-repeat center;
+  height: 450px;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-size: 100% 100%; */
+}
+
+/* body {
+    max-width: 100vw;
+  } */
+
+.card {
+  height: 470px;
+}
+
+.card-img-top {
+  height: 300px;
+}
