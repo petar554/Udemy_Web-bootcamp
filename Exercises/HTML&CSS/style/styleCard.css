@@ -1,0 +1,99 @@
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frame {
+      background: rgb(47, 163, 47);
+      padding: 10px;
+      position: relative;
+      border-radius: 5px 5px 0 0;
+      }
+  
+  header h1 {
+    width: 45px;
+    color: white;
+    margin-top: 1px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+  }
+
+  header h3 {
+    position: absolute;
+    right: 150px;
+    top: 5px;
+    margin-top: 4px;
+  }
+
+ header p {
+    position: absolute;
+    right: 228px;
+    top: 20px;
+  }
+
+  .frame1 {
+    background: rgb(231, 233, 231);
+    padding: 10px;
+    position: relative;
+}
+
+section main h1 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+section main h1 span {
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+section main .img {
+    max-width: 150px;
+    border: 1px solid black;
+}
+
+section main div {
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+
+section main div .info2 {
+    margin-top: 5px;
+}
+
+section main div .info1 {
+    margin-bottom: 5px;
+}
+
+section main div .info1 {
+    font-weight: 800;
+}
+
+section main div .eng {
+    font-weight: 200;
+}
+
+.frame3 {
+    background: rgb(47, 163, 47);
+    padding: 10px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+
+footer {
+    height: 20px;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
