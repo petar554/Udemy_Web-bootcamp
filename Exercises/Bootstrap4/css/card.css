@@ -1,0 +1,106 @@
+.container-fluid {
+  width: 600px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame {
+  background: rgb(47, 163, 47);
+  padding: 10px;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+.frame1 {
+  background-image: url(../images/download.png);
+}
+
+header h1 {
+  color: white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+
+}
+
+main h1 {
+  font-size: medium;
+}
+
+section main h1 span {
+  font-weight: 100;
+  font-size: small;
+}
+
+section main .img {
+  border: 1px solid black;
+  width: 170px;
+}
+
+section main .info1 {
+  font-weight: bold;
+}
+
+section main .info1 .eng {
+  font-weight: 100
+}
+
+section main .infos {
+  padding-bottom: ;
+}
+
+footer {
+  background: #2fa22f;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+.frame2 {
+  background-image: url(../images/download.png);
+  padding: 10px;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+main .h1 {
+  color: #188318;
+  border-top: 3px solid #188318;
+  border-bottom: 3px solid #188318;
+
+}
+
+main .p {
+  color: #188318;
+}
+
+main div .info p {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+main div .info p span {
+  font-style: italic;
+
+}
+
+main .signature {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+main .signature span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  background: #2fa22f;
+  height: 40px;
+}
+
+footer p {
+  color: #2fa22f;
+}
